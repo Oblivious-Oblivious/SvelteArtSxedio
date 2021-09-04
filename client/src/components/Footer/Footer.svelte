@@ -3,12 +3,14 @@
     import Contact from "./Contact.svelte";
 </script>
 
-<footer class="footer-has-shadow flex items-center justify-center p-10">
-    <div class="w-1/2">
+<footer class="grid md:grid-cols-2 items-center p-8 footer-has-shadow">
+    <div class="col-span-3 md:col-span-1">
         <Copyright/>
     </div>
 
-    <div class="w-1/2">
+    <hr class="md:hidden py-3 col-span-3 text-gray-300 opacity-50">
+
+    <div class="col-span-3 md:col-span-1">
         <Contact/>
     </div>
 </footer>
