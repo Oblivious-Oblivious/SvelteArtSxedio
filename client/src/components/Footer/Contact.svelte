@@ -9,7 +9,7 @@
             text="Raidestou 18 - Serres, Greece"
         />
     </div>
-    <div class="phone-number-font">
+    <div>
         <ContactDetail
             icon="fa fa-phone"
             text="+30 6946550215"
@@ -22,10 +22,3 @@
         />
     </a>
 </div>
-
-<style>
-    .phone-number-font {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 300;
-    }
-</style>
