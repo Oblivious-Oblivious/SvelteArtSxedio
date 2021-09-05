@@ -22,8 +22,8 @@
         align-items: center;
         padding: 2rem;
         font-weight: 300;
-        box-shadow: 0 -2px 5px 0 rgba(24, 24, 24, 0.12),
-            0 2px 10px 0 rgba(24, 24, 24, 0.12);
+        box-shadow: 0 -2px 5px 0 var(--nav-shadow-color),
+            0 2px 10px 0 var(--nav-shadow-color);
     }
     .copyright, .contact {
         grid-column: span 3 / span 3;

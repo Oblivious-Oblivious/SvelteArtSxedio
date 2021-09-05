@@ -30,7 +30,7 @@
     }
 
     #top, #mid, #bot {
-        stroke: #4e4e4e;
+        stroke: var(--dark-color);
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-miterlimit: 10;

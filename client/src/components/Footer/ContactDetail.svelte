@@ -13,8 +13,8 @@
 
     i {
         font-family: "Font Awesome 5 Free";
-        background-color: #727272;
-        color: #fff;
+        background-color: var(--underline-color);
+        color: var(--white-color);
         font-size: 18px;
         width: 38px;
         height: 38px;

@@ -28,8 +28,8 @@
     header {
         position: fixed;
         width: 100%;
-        box-shadow: 0 2px 5px 0 rgba(24, 24, 24, 0.12),
-            0 2px 10px 0 rgba(24, 24, 24, 0.12);
+        box-shadow: 0 2px 5px 0 var(--nav-shadow-color),
+            0 2px 10px 0 var(--nav-shadow-color);
         padding: 0.5rem 0.875rem;
         display: flex;
         justify-content: space-between;
