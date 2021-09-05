@@ -27,6 +27,7 @@
 </a>
 
 <style>
+    /* TODO Turn into global */
     @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css");
 
     i {
