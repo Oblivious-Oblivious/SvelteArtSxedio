@@ -9,9 +9,7 @@
     },
     "devDependencies": {
         "@sveltejs/kit": "next",
-        "autoprefixer": "^10.3.4",
-        "svelte": "^3.34.0",
-        "tailwindcss": "^2.2.9"
+        "svelte": "^3.34.0"
     },
     "type": "module"
 }
