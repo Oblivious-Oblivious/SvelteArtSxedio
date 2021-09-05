@@ -1,1 +1,8 @@
-<h1 class="text-4xl text-center p-96 mb-96">Gallery</h1>
+<h1>Gallery</h1>
+
+<style>
+    h1 {
+        font-size: 2.5rem;
+        padding: 40rem 20rem;
+    }
+</style>

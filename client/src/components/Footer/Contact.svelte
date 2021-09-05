@@ -2,7 +2,7 @@
     import ContactDetail from "./ContactDetail.svelte";
 </script>
 
-<div class="flex flex-col items-center justify-center text-center">
+<div class="contact">
     <div>
         <ContactDetail
             icon="fa fa-map-marker"
@@ -22,3 +22,13 @@
         />
     </a>
 </div>
+
+<style>
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+</style>

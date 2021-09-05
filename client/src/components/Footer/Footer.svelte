@@ -3,21 +3,46 @@
     import Contact from "./Contact.svelte";
 </script>
 
-<footer class="grid md:grid-cols-2 items-center p-8 footer-has-shadow">
-    <div class="col-span-3 md:col-span-1">
+<footer>
+    <div class="copyright">
         <Copyright/>
     </div>
 
-    <hr class="md:hidden py-3 col-span-3 text-gray-300 opacity-50">
+    <hr class="divider">
 
-    <div class="col-span-3 md:col-span-1">
+    <div class="contact">
         <Contact/>
     </div>
 </footer>
 
 <style>
-    .footer-has-shadow {
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: center;
+        padding: 2rem;
+        font-weight: 300;
         box-shadow: 0 -2px 5px 0 rgba(24, 24, 24, 0.12),
             0 2px 10px 0 rgba(24, 24, 24, 0.12);
+    }
+    .copyright, .contact {
+        grid-column: span 3 / span 3;
+    }
+
+    .divider {
+        padding: 0.75rem 0;
+        grid-column: span 3 / span 3;
+        color: rgba(152, 152, 152, 0.3);
+    }
+
+    /* TODO Use custom aero flexbox automations */
+    @media (min-width: 768px) {
+        .copyright, .contact {
+            grid-column: span 1 / span 1;
+        }
+
+        .divider {
+            display: none;
+        }
     }
 </style>

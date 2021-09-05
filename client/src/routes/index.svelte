@@ -1,1 +1,8 @@
-<h1 class="text-4xl font-light text-center p-96 mb-96">Here the good pepons (drawn).</h1>
+<h1>Here the good pepons (drawn).</h1>
+
+<style>
+    h1 {
+        font-size: 2.5rem;
+        padding: 40rem 20rem;
+    }
+</style>

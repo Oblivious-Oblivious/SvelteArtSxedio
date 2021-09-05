@@ -1,4 +1,10 @@
-<a class="font-light" href="/">Home</a>
-<a class="font-light" href="/gallery">Gallery</a>
-<a class="font-light" href="/shop">Shop</a>
-<a class="font-light" href="/about">About</a>
+<a href="/">Home</a>
+<a href="/gallery">Gallery</a>
+<a href="/shop">Shop</a>
+<a href="/about">About</a>
+
+<style>
+    a {
+        font-weight: 300;
+    }
+</style>
