@@ -15,7 +15,7 @@
             text="+30 6946550215"
         />
     </div>
-    <a class="text-blue-500" href="mailto:evang.papap@gmail.com" draggable="false">
+    <a style="color: #5383d3;" href="mailto:evang.papap@gmail.com" draggable="false">
         <ContactDetail
             icon="fa fa-envelope"
             text="evang.papap@gmail.com"
