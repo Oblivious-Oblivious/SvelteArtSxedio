@@ -29,7 +29,7 @@
     .burger {
         padding-bottom: 0.5rem;
         padding-right: 0.5rem;
-        transition: color 0.3s ease-in-out;
+        transition: color 300ms ease-in-out;
     }
 
     #top {width: 32px;}
@@ -41,7 +41,7 @@
         margin: 5px;
         font-weight: light;
         background-color: var(--text-color);
-        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
     }
 
     /* rotate the top line */

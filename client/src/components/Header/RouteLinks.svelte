@@ -25,6 +25,7 @@
         padding: 0.2rem 0.3rem;
     }
 
+    /* TODO Make underlines sticky */
     /* Fade in */
     a::after {
         content: "";

@@ -17,23 +17,20 @@
     ul {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
     a {
         font-weight: 300;
         display: flex;
         position: relative;
-        text-align: center;
         width: fit-content;
         margin: 0 auto;
         margin-top: 1rem;
         margin-bottom: 1rem;
         padding: 0.2em 0;
-        /* padding: 12px 16px; */
     }
 
+    /* TODO Make underlines sticky */
     /* Fade in */
     a::after {
         content: "";

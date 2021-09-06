@@ -5,9 +5,12 @@
     import MobileRouteLinks from "./MobileRouteLinks.svelte";
 
     let open = false;
+
+    const burger_open_handler = e => open = e.detail.status;
+    const close_burger_menu = () => open = false;
 </script>
 
-<header>
+<header class:open>
     <nav class="logo">
         <Logo/>
     </nav>
@@ -20,18 +23,19 @@
     <nav class="burger">
         <Burger
             {open}
-            on:burger-open={(e) => open = e.detail.status}
+            on:burger-open={burger_open_handler}
         />
     </nav>
 </header>
-<nav
+
+<div
     class:open
     class="mobile-nav"
 >
     <MobileRouteLinks
-        on:click={() => open = false}
+        on:click={close_burger_menu}
     />
-</nav>
+</div>
 
 <style>
     header {
@@ -42,9 +46,14 @@
         width: 100vw;
         box-shadow: 0 2px 5px 0 var(--nav-shadow-color),
             0 2px 10px 0 var(--nav-shadow-color);
-        padding: 0.5rem 2rem;
+        padding: 0.75rem 2rem;
         display: flex;
         justify-content: space-between;
+    }
+
+    header.open {
+        box-shadow: none;
+        transition: 300ms;
     }
 
     .logo {
@@ -88,10 +97,9 @@
         min-height: max-content;
         display: block;
         z-index: 98;
-        box-shadow: 0 2px 5px 0 var(--nav-shadow-color),
-            0 2px 10px 0 var(--nav-shadow-color);
+        box-shadow: 0 2px 5px 0 var(--nav-shadow-color);
         background-color: var(--nav-bg-color);
-        transition: 0.3s;
+        transition: 300ms;
     }
 
     .mobile-nav.open {

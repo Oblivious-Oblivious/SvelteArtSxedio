@@ -12,17 +12,15 @@
     }
 </script>
 
-<Button on:click={toggle_theme}><i class="fad fa-paint-brush"></i></Button>
+<Button on:click={toggle_theme}>
+    <i class="fad fa-paint-brush"></i>
+</Button>
 
 <a href="/basket">
     <Button on:click={preload_basket}>
         <i class="fas fa-shopping-cart"></i>
-        <div>
-            {`$${price}`}
-        </div>
-        <div>
-            {`(${number_of_items})`}
-        </div>
+        <div>{`$${price}`}</div>
+        <div>{`(${number_of_items})`}</div>
     </Button>
 </a>
 
