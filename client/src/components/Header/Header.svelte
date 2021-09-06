@@ -91,7 +91,7 @@
 
     .mobile-nav {
         position: fixed;
-        top: 3.5rem;
+        top: 4rem;
         left: 100%;
         width: 100%;
         min-height: max-content;
