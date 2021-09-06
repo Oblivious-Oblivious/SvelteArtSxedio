@@ -13,12 +13,15 @@
         box-shadow: 0 2px 5px 0 var(--nav-shadow-color),
             0 2px 10px 0 var(--nav-shadow-color);
         border-width: 1px;
-        border-color: #e4e4e4;
+
+        color: var(--dark-color);
+        background-color: var(--button-bg-color);
+        border-color: #dbdbdb;
     }
 
     button:hover {
         color: var(--dark-color);
         background-color: var(--yellow);
-        border-color: var(--underline-color);
+        border-color: #b5b5b5;
     }
 </style>
