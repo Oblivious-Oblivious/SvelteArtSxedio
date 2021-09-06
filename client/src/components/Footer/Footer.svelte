@@ -27,12 +27,14 @@
     }
     .copyright, .contact {
         grid-column: span 3 / span 3;
+        padding-bottom: 0.75rem;
     }
 
     .divider {
         padding: 0.75rem 0;
         grid-column: span 3 / span 3;
-        color: rgba(152, 152, 152, 0.3);
+        border-top: 1px solid rgba(152, 152, 152, 0.3);
+        opacity: 0.5;
     }
 
     /* TODO Use custom aero flexbox automations */
