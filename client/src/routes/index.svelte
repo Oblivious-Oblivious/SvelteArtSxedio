@@ -2,6 +2,7 @@
 
 <style>
     h1 {
+        font-weight: 300;
         text-align: center;
         font-size: 2.5rem;
         padding: 40rem 20rem;
