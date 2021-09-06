@@ -21,8 +21,11 @@
 
     a {
         font-weight: 300;
+        display: flex;
         position: relative;
-        padding: 0.2rem 0.3rem;
+        width: fit-content;
+        margin: 0 0.3rem;
+        padding: 0.2em 0;
     }
 
     /* TODO Make underlines sticky */
