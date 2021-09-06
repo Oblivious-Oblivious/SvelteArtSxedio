@@ -23,6 +23,7 @@
         color: var(--text-color);
         background-color: var(--body-bg-color);
         background-image: var(--dark-bg);
+        overflow: hidden;
         background-size: cover;
         background-position: top center;
     }
