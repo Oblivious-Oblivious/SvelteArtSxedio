@@ -1,56 +1,62 @@
 <script>
-    let open = false;
+    import { createEventDispatcher } from "svelte";
+    const dispatch = createEventDispatcher();
 
-    const x2_line1picker = {false: 66, true: 70};
-    const x2_line2picker = {false: 54, true: 70};
-    const x2_line3picker = {false: 42, true: 70};
+    export let open;
+
+    const open_burger = () => {
+        open = !open;
+        dispatch("burger-open", {
+            status: open
+        });
+    }
 </script>
 
-<!-- TODO Figure out svg on hover effects -->
+<!-- TODO Figure out hover effects -->
 <!-- on:hover={expand_burger} -->
 
 <button
     class:open
     class="burger"
-    on:click={() => open = !open}
+    on:click={open_burger}
 >
-    <svg width="40px" height="40px" viewBox="0 0 72 72">
-        <g id="line">
-            <line id="top" x1="16" x2={x2_line1picker[open]} y1="26" y2="26"/>
-            <line id="mid" x1="16" x2={x2_line2picker[open]} y1="36" y2="36"/>
-            <line id="bot" x1="16" x2={x2_line3picker[open]} y1="46" y2="46"/>
-        </g>
-    </svg>
+    <div id="top"></div>
+    <div id="mid"></div>
+    <div id="bot"></div>
 </button>
 
 <style>
     .burger {
-        padding: 0.25rem 0.75rem;
+        padding-bottom: 0.5rem;
+        padding-right: 0.5rem;
         transition: color 0.3s ease-in-out;
     }
 
+    #top {width: 32px;}
+    #mid {width: 24px;}
+    #bot {width: 16px;}
+
     #top, #mid, #bot {
-        stroke: var(--dark-color);
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-miterlimit: 10;
-        stroke-width: 2;
-        fill: none;
+        height: 1px;
+        margin: 5px;
+        font-weight: light;
+        background-color: var(--text-color);
         transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     }
 
     /* rotate the top line */
     .open #top {
-        transform: translate(30px, -10px) rotate(44deg);
+        transform: translate(2px, 7px) rotate(45deg) scaleX(0.8);
     }
 
     /* hide the middle */
     .open #mid {
-        opacity: 0
+        transform: translateX(-35px);
+        opacity: 0;
     }
 
     /* rotate the bottom line */
     .open #bot {
-        transform: translate(-20px, 34px) rotate(-43deg)
+        transform: translate(10px, -5px) rotate(-44deg) scaleX(1.6);
     }
 </style>

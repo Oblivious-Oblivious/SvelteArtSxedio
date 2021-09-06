@@ -2,7 +2,9 @@
     import Logo from "./Logo.svelte";
     import Burger from "./Burger.svelte";
     import RouteLinks from "./RouteLinks.svelte";
-    import BasketButtons from "./BasketButtons.svelte";
+    import MobileRouteLinks from "./MobileRouteLinks.svelte";
+
+    let open = false;
 </script>
 
 <header>
@@ -14,23 +16,33 @@
         <RouteLinks/>
     </nav>
 
-    <nav class="basket-buttons">
-        <BasketButtons/>
-    </nav>
-
     <!-- Shown on medium and below -->
     <nav class="burger">
-        <Burger/>
+        <Burger
+            {open}
+            on:burger-open={(e) => open = e.detail.status}
+        />
     </nav>
 </header>
+<nav
+    class:open
+    class="mobile-nav"
+>
+    <MobileRouteLinks
+        on:click={() => open = false}
+    />
+</nav>
 
 <style>
     header {
         position: fixed;
-        width: 100%;
+        background-color: var(--nav-bg-color);
+        top: 0;
+        left: 0;
+        width: 100vw;
         box-shadow: 0 2px 5px 0 var(--nav-shadow-color),
             0 2px 10px 0 var(--nav-shadow-color);
-        padding: 0.5rem 0.875rem;
+        padding: 0.5rem 2rem;
         display: flex;
         justify-content: space-between;
     }
@@ -43,39 +55,46 @@
     }
 
     .route-links {
-        display: none;
-    }
-    
-    .basket-buttons {
-        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 0 2.3rem;
     }
 
     .burger {
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
+        display: none;
     }
 
     /* TODO Use aero css flexbox automations */
-    @media (min-width: 768px) {
+    @media (max-width: 1024px) {
         .route-links {
-            display: flex;
-            align-items: center;
-            gap: 3.5rem;
-            padding: 0 1rem;
-            justify-content: flex-end;
-            width: 100%;
-        }
-
-        .basket-buttons {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0 2rem;
+            display: none;
         }
 
         .burger {
-            display: none;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
         }
+    }
+
+    .mobile-nav {
+        position: fixed;
+        top: 3.5rem;
+        left: 100%;
+        width: 100%;
+        min-height: max-content;
+        display: block;
+        z-index: 98;
+        box-shadow: 0 2px 5px 0 var(--nav-shadow-color),
+            0 2px 10px 0 var(--nav-shadow-color);
+        background-color: var(--nav-bg-color);
+        transition: 0.3s;
+    }
+
+    .mobile-nav.open {
+        left: 0%;
     }
 </style>
