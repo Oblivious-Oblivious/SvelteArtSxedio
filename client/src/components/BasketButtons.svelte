@@ -1,5 +1,5 @@
 <script>
-    import Button from "../Button.svelte";
+    import Button from "./Button.svelte";
 
     $: price = (0.00).toFixed(2);
     $: number_of_items = 0;
