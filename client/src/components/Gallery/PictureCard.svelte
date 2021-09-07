@@ -14,7 +14,7 @@
 
     h3 {
         color: var(--text-color);
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.5;
         margin: 1rem 0 1rem 0;
         font-size: 1rem;
