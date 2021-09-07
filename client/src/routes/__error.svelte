@@ -1,3 +1,10 @@
+<script>
+    import { onMount } from "svelte";
+    import { underline_value } from "../stores/underline_value";
+
+    onMount(() => $underline_value = 0);
+</script>
+
 <h1>404 sowwy</h1>
 
 <style>

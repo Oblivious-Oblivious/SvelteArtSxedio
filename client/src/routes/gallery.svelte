@@ -1,3 +1,10 @@
+<script>
+    import { onMount } from "svelte";
+    import { underline_value } from "../stores/underline_value";
+
+    onMount(() => $underline_value = 2);
+</script>
+
 <h1>Gallery</h1>
 
 <style>
