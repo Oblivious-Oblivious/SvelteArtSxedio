@@ -6,6 +6,7 @@
     import Footer from "../components/Footer/Footer.svelte";
 </script>
 
+<!-- TODO Add smooth loading -->
 <main>
     <Header/>
     <slot></slot>
