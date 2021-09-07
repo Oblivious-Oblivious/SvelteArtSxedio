@@ -5,7 +5,6 @@
     $: number_of_items = 0;
 
     const toggle_theme = () => {
-        /* TODO Toggle theme */
     }
 
     const preload_basket = () => {
