@@ -2,6 +2,7 @@
     export let image_details;
 </script>
 
+<!-- TODO Add poptrox effect -->
 <a href={image_details[0]} draggable="false">
     <img src={image_details[0]} alt="rose" draggable="false">
     <h3>{image_details[1]}</h3>
