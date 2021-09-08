@@ -10,6 +10,7 @@
 <style>
     img {
         cursor: pointer;
+        width: 100%;
     }
 
     h3 {
