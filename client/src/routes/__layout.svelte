@@ -1,7 +1,7 @@
 <script context="module">
     export const load = async({ page }) => ({
         props: {
-            key: page.path
+            refresh: page.path
         }
     });
 </script>
@@ -14,19 +14,21 @@
     import Footer from "../components/Footer/Footer.svelte";
 
     import SmoothLoading from "../components/SmoothLoading.svelte";
-    export let key;
+    export let refresh;
 </script>
 
 <!-- TODO Add smooth loading -->
 <!-- TODO Add same color overscroll behaviour -->
 
-<SmoothLoading refresh={key}>
-    <main>
-        <Header/>
+<main>
+    <Header/>
+
+    <SmoothLoading {refresh}>
         <slot></slot>
-        <Footer/>
-    </main>
-</SmoothLoading>
+    </SmoothLoading>
+
+    <Footer/>
+</main>
 
 <style>
     /* @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
@@ -41,7 +43,5 @@
         overflow: hidden;
         background-size: cover;
         background-position: top center;
-
-        min-height: 600px;
     }
 </style>
