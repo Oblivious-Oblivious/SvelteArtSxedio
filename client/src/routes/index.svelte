@@ -5,13 +5,18 @@
     onMount(() => $underline_value = 1);
 </script>
 
+<br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br />
 <h1>Here the good pepons (drawn).</h1>
+<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br />
 
 <style>
     h1 {
         font-weight: 300;
         text-align: center;
-        font-size: 2.5rem;
-        padding: 40rem 20rem;
+        font-size: 2rem;
+        margin: 4rem 0;
     }
 </style>
