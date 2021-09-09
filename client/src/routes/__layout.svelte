@@ -1,9 +1,11 @@
 <script context="module">
-    export const load = async({ page }) => ({
-        props: {
-            refresh: page.path
-        }
-    });
+    export async function load({page}) {
+        return {
+            props: {
+                refresh: page.path
+            }
+        };
+    }
 </script>
 
 <script>
