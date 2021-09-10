@@ -12,7 +12,7 @@
             case 2: u1 = false; u2 = true; u3 = false; u4 = false; break;
             case 3: u1 = false; u2 = false; u3 = true; u4 = false; break;
             case 4: u1 = false; u2 = false; u3 = false; u4 = true; break;
-            default: break;
+            default: u1 = false; u2 = false; u3 = false; u4 = false; break;
         }
     }
 </script>
