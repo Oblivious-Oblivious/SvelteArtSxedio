@@ -9,8 +9,8 @@
 </script>
 
 <script>
-    import "../resets.css";
-    import "../variables.css";
+    import "../styles/resets.css";
+    import "../styles/variables.css";
 
     import Header from "../components/Header/Header.svelte";
     import Footer from "../components/Footer/Footer.svelte";
