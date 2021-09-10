@@ -1,3 +1,10 @@
+<script context="module">
+    import { browser, dev } from "$app/env";
+    export const hydrate = dev;
+    export const router = browser;
+    export const prerender = true;
+</script>
+
 <script>
     import { onMount } from "svelte";
     import { underline_value } from "../stores/underline_value";
@@ -7,25 +14,25 @@
     onMount(() => $underline_value = 2);
     
     let image_list1 = [
-        ["img/tall/Rose.JPG", "Rose"],
-        ["img/wide/River Boat.JPG", "River Boat"],
-        ["img/wide/Fruit.JPG", "Fruit"],
-        ["img/tall/Poppies.JPG", "Poppies"],
-        ["img/wide/Leaves.JPG", "Leaves"]
+        ["img/tall/Rose.jpg", "Rose"],
+        ["img/wide/River Boat.jpg", "River Boat"],
+        ["img/wide/Fruit.jpg", "Fruit"],
+        ["img/tall/Poppies.jpg", "Poppies"],
+        ["img/wide/Leaves.jpg", "Leaves"]
     ];
     let image_list2 = [
-        ["img/ultra-wide/details/Pumkin detail1.JPG", "Pumkin"],
-        ["img/wide/Waves.JPG", "Waves"],
-        ["img/wide/Rocks.JPG", "Rocks"],
-        ["img/tall/River.JPG", "River"],
-        ["img/tall/Salt Shaker.JPG", "Salt Shacker"]
+        ["img/ultra-wide/details/Pumkin detail1.jpg", "Pumkin"],
+        ["img/wide/Waves.jpg", "Waves"],
+        ["img/wide/Rocks.jpg", "Rocks"],
+        ["img/tall/River.jpg", "River"],
+        ["img/tall/Salt Shaker.jpg", "Salt Shacker"]
     ];
     let image_list3 = [
-        ["img/tall/Ver Meer.JPG", "Ver Meer"],
-        ["img/tall/Dali.JPG", "Dali"],
-        ["img/wide/Peaches.JPG", "Peaches"],
-        ["img/tall/Pencil.JPG", "Pencil"],
-        ["img/ultra-wide/Naxos.JPG", "Naxos"]
+        ["img/tall/Ver Meer.jpg", "Ver Meer"],
+        ["img/tall/Dali.jpg", "Dali"],
+        ["img/wide/Peaches.jpg", "Peaches"],
+        ["img/tall/Pencil.jpg", "Pencil"],
+        ["img/ultra-wide/Naxos.jpg", "Naxos"]
     ];
 </script>
 

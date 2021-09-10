@@ -14,7 +14,7 @@
         engine and car tsouls down nicely.
     </BlockQuote>
     
-    <img src="./img/about.JPG" alt="about" draggable="false"/>
+    <img src="./img/about.jpg" alt="about" draggable="false"/>
     
     <Container>
         Super painter, sallonica arch dropout, because he alredy
