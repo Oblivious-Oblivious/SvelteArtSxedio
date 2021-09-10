@@ -6,7 +6,6 @@
 
 <style>
     .container {
-        font-family: var(--font);
         margin: 0 auto;
         background: var(--body-bg-color);
         box-shadow: 5px 5px 15px var(--shadow-color);
