@@ -3,7 +3,6 @@
 </script>
 
 <div class="quote">
-    <!-- TODO Fix blockquote overflow -->
     <blockquote>
         <slot></slot>
     </blockquote>
@@ -41,9 +40,10 @@
 
     blockquote:before,
     blockquote:after {
-        position: absolute;
         color: var(--underline-color);
-        font-size: 8rem;
+        /* TODO Fix blockquote overflow */
+        /* font-size: 2.5rem; */
+        /* position: absolute; */
         width: 4rem;
         height: 4rem;
     }
