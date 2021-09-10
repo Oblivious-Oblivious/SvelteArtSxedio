@@ -11,7 +11,13 @@
     }
 </script>
 
+<!-- TODO Fix reloading error when going from image id to gallery -->
 <script>
+    import { onMount } from "svelte";
+    import { underline_value } from "../../stores/underline_value";
+
+    onMount(() => $underline_value = 0);
+
     export let image;
 </script>
 
