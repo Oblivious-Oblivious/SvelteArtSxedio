@@ -37,7 +37,6 @@
         opacity: 0.5;
     }
 
-    /* TODO Use custom aero flexbox automations */
     @media (min-width: 768px) {
         .copyright, .contact {
             grid-column: span 1 / span 1;

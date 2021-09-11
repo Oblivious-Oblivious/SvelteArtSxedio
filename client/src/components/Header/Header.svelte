@@ -75,7 +75,6 @@
         display: none;
     }
 
-    /* TODO Use aero css flexbox automations */
     @media (max-width: 1024px) {
         .route-links {
             display: none;
