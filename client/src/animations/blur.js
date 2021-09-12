@@ -4,7 +4,7 @@ export const blur = (node, params) => {
         inverse = false,
         delay = 0,
         duration = 400,
-        easing = t => 1 - Math.pow(1 - t, 3)
+        easing = (t) => 1 - Math.pow(1 - t, 3),
     } = params;
 
     return {
@@ -14,6 +14,6 @@ export const blur = (node, params) => {
         css: (t, u) => `
             opacity: ${t};
             filter: blur(${(inverse ? t : u) * radius}px);
-        `
+        `,
     };
-}
+};
