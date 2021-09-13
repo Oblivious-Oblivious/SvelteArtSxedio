@@ -5,7 +5,7 @@
     onMount(() => $underline_value = 3);
 </script>
 
-<h1>Shop</h1>
+<h1>Work</h1>
 
 <style>
     h1 {

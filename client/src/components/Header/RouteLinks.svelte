@@ -25,7 +25,7 @@
         <a class:u2 href="/gallery">Gallery</a>
     </li>
     <li>
-        <a class:u3 href="/shop">Shop</a>
+        <a class:u3 href="/work">Work</a>
     </li>
     <li>
         <a class:u4 href="/about">About</a>
