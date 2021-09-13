@@ -14,25 +14,25 @@
     onMount(() => $underline_value = 2);
     
     let image_list1 = [
-        [8, "img/tall/Rose.jpg", "Rose"],
-        [105, "img/wide/River Boat.jpg", "River Boat"],
-        [101, "img/wide/Fruit.jpg", "Fruit"],
-        [6, "img/tall/Poppies.jpg", "Poppies"],
-        [102, "img/wide/Leaves.jpg", "Leaves"]
+        ["img/tall/Rose.jpg", "Rose"],
+        ["img/wide/River Boat.jpg", "River Boat"],
+        ["img/wide/Fruit.jpg", "Fruit"],
+        ["img/tall/Poppies.jpg", "Poppies"],
+        ["img/wide/Leaves.jpg", "Leaves"]
     ];
     let image_list2 = [
-        [10002, "img/ultra-wide/details/Pumkin detail1.jpg", "Pumkin"],
-        [109, "img/wide/Waves.jpg", "Waves"],
-        [106, "img/wide/Rocks.jpg", "Rocks"],
-        [7, "img/tall/River.jpg", "River"],
-        [9, "img/tall/Salt Shaker.jpg", "Salt Shacker"]
+        ["img/ultra-wide/details/Pumkin detail1.jpg", "Pumkin"],
+        ["img/wide/Waves.jpg", "Waves"],
+        ["img/wide/Rocks.jpg", "Rocks"],
+        ["img/tall/River.jpg", "River"],
+        ["img/tall/Salt Shaker.jpg", "Salt Shacker"]
     ];
     let image_list3 = [
-        [11, "img/tall/Ver Meer.jpg", "Ver Meer"],
-        [1, "img/tall/Dali.jpg", "Dali"],
-        [104, "img/wide/Peaches.jpg", "Peaches"],
-        [5, "img/tall/Pencil.jpg", "Pencil"],
-        [10001, "img/ultra-wide/Naxos.jpg", "Naxos"]
+        ["img/tall/Ver Meer.jpg", "Ver Meer"],
+        ["img/tall/Dali.jpg", "Dali"],
+        ["img/wide/Peaches.jpg", "Peaches"],
+        ["img/tall/Pencil.jpg", "Pencil"],
+        ["img/ultra-wide/Naxos.jpg", "Naxos"]
     ];
 </script>
 
