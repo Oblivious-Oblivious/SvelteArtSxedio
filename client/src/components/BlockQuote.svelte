@@ -41,9 +41,6 @@
     blockquote:before,
     blockquote:after {
         color: var(--underline-color);
-        /* TODO Fix blockquote overflow */
-        /* font-size: 2.5rem; */
-        /* position: absolute; */
         width: 4rem;
         height: 4rem;
     }
