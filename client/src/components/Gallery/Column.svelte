@@ -6,6 +6,6 @@
 
 <div>
     {#each image_list as image}
-        <GalleryGard image_details={image}/>
+        <GalleryGard {image}/>
     {/each}
 </div>
