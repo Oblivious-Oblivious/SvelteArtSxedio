@@ -2,8 +2,8 @@
     import { onMount } from "svelte";
     import { underline_value } from "../stores/underline_value";
 
-    import BlockQuote from "../components/BlockQuote.svelte";
-    import Container from "../components/Container.svelte";
+    import BlockQuote from "../components/About/BlockQuote.svelte";
+    import Container from "../components/About/Container.svelte";
 
     onMount(() => $underline_value = 4);
 </script>
