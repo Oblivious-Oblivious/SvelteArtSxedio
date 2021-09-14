@@ -2,8 +2,8 @@ export const image_list = [
     /* Tall */
     {
         id: 1,
-        src: "./img/tall/Boat in the Sunset.jpg",
-        details: ["./img/tall/details/Boat in the Sunset detail.jpg"],
+        src: "/img/tall/Boat in the Sunset.jpg",
+        details: ["/img/tall/details/Boat in the Sunset detail.jpg"],
         title: "Boat in the Sunset",
         size: "tall",
         price: 80,
@@ -12,8 +12,8 @@ export const image_list = [
     },
     {
         id: 2,
-        src: "./img/tall/Dali.jpg",
-        details: ["./img/tall/details/Dali detail.jpg"],
+        src: "/img/tall/Dali.jpg",
+        details: ["/img/tall/details/Dali detail.jpg"],
         size: "tall",
         title: "Dali",
         price: 100,
@@ -22,7 +22,7 @@ export const image_list = [
     },
     {
         id: 3,
-        src: "./img/tall/Lighthouse.jpg",
+        src: "/img/tall/Lighthouse.jpg",
         details: [],
         size: "tall",
         title: "Lighthouse",
@@ -32,8 +32,8 @@ export const image_list = [
     },
     {
         id: 4,
-        src: "./img/tall/Old House.jpg",
-        details: ["./img/tall/details/Old House detail.jpg"],
+        src: "/img/tall/Old House.jpg",
+        details: ["/img/tall/details/Old House detail.jpg"],
         size: "tall",
         title: "Old House",
         price: 80,
@@ -42,8 +42,8 @@ export const image_list = [
     },
     {
         id: 5,
-        src: "./img/tall/Pencil.jpg",
-        details: ["./img/tall/details/Pencil detail.jpg"],
+        src: "/img/tall/Pencil.jpg",
+        details: ["/img/tall/details/Pencil detail.jpg"],
         size: "tall",
         title: "Pencil",
         price: 80,
@@ -52,7 +52,7 @@ export const image_list = [
     },
     {
         id: 6,
-        src: "./img/tall/Poppies.jpg",
+        src: "/img/tall/Poppies.jpg",
         details: [],
         size: "tall",
         title: "Poppies",
@@ -62,7 +62,7 @@ export const image_list = [
     },
     {
         id: 7,
-        src: "./img/tall/River.jpg",
+        src: "/img/tall/River.jpg",
         details: [],
         size: "tall",
         title: "River",
@@ -72,8 +72,8 @@ export const image_list = [
     },
     {
         id: 8,
-        src: "./img/tall/Rose.jpg",
-        details: ["./img/tall/details/Rose detail.jpg"],
+        src: "/img/tall/Rose.jpg",
+        details: ["/img/tall/details/Rose detail.jpg"],
         size: "tall",
         title: "Rose",
         price: 100,
@@ -82,8 +82,8 @@ export const image_list = [
     },
     {
         id: 9,
-        src: "./img/tall/Salt Shaker.jpg",
-        details: ["./img/tall/details/Salt Shaker detail.jpg"],
+        src: "/img/tall/Salt Shaker.jpg",
+        details: ["/img/tall/details/Salt Shaker detail.jpg"],
         size: "tall",
         title: "Salt Shaker",
         price: 100,
@@ -92,7 +92,7 @@ export const image_list = [
     },
     {
         id: 10,
-        src: "./img/tall/Sunny Snow.jpg",
+        src: "/img/tall/Sunny Snow.jpg",
         details: [],
         size: "tall",
         title: "Sunny Snow",
@@ -102,7 +102,7 @@ export const image_list = [
     },
     {
         id: 11,
-        src: "./img/tall/Ver Meer.jpg",
+        src: "/img/tall/Ver Meer.jpg",
         details: [],
         size: "tall",
         title: "Ver Meer",
@@ -114,8 +114,8 @@ export const image_list = [
     /* Wide */
     {
         id: 100,
-        src: "./img/wide/Figs.jpg",
-        details: ["./img/wide/details/Figs detail.jpg"],
+        src: "/img/wide/Figs.jpg",
+        details: ["/img/wide/details/Figs detail.jpg"],
         size: "wide",
         title: "Figs",
         price: 100,
@@ -124,10 +124,10 @@ export const image_list = [
     },
     {
         id: 101,
-        src: "./img/wide/Fruit.jpg",
+        src: "/img/wide/Fruit.jpg",
         details: [
-            "./img/wide/details/Fruit detail1.jpg",
-            "./img/wide/details/Fruit detail2.jpg",
+            "/img/wide/details/Fruit detail1.jpg",
+            "/img/wide/details/Fruit detail2.jpg",
         ],
         size: "wide",
         title: "Fruit",
@@ -137,11 +137,11 @@ export const image_list = [
     },
     {
         id: 102,
-        src: "./img/wide/Leaves.jpg",
+        src: "/img/wide/Leaves.jpg",
         details: [
-            "./img/wide/details/Leaves detail1.jpg",
-            "./img/wide/details/Leaves detail2.jpg",
-            "./img/wide/details/Leaves detail3.jpg",
+            "/img/wide/details/Leaves detail1.jpg",
+            "/img/wide/details/Leaves detail2.jpg",
+            "/img/wide/details/Leaves detail3.jpg",
         ],
         size: "wide",
         title: "Leaves",
@@ -151,7 +151,7 @@ export const image_list = [
     },
     {
         id: 103,
-        src: "./img/wide/Night Waves.jpg",
+        src: "/img/wide/Night Waves.jpg",
         details: [],
         size: "wide",
         title: "Night Waves",
@@ -161,7 +161,7 @@ export const image_list = [
     },
     {
         id: 104,
-        src: "./img/wide/Peaches.jpg",
+        src: "/img/wide/Peaches.jpg",
         details: [],
         size: "wide",
         title: "Peaches",
@@ -171,8 +171,8 @@ export const image_list = [
     },
     {
         id: 105,
-        src: "./img/wide/River Boat.jpg",
-        details: ["./img/wide/details/River Boat detail.jpg"],
+        src: "/img/wide/River Boat.jpg",
+        details: ["/img/wide/details/River Boat detail.jpg"],
         size: "wide",
         title: "River Boat",
         price: 100,
@@ -181,7 +181,7 @@ export const image_list = [
     },
     {
         id: 106,
-        src: "./img/wide/Rocks.jpg",
+        src: "/img/wide/Rocks.jpg",
         details: [],
         size: "wide",
         title: "Rocks",
@@ -191,10 +191,10 @@ export const image_list = [
     },
     {
         id: 107,
-        src: "./img/wide/Snowy Village.jpg",
+        src: "/img/wide/Snowy Village.jpg",
         details: [
-            "./img/wide/details/Snowy Village detail1.jpg",
-            "./img/wide/details/Snowy Village detail2.jpg",
+            "/img/wide/details/Snowy Village detail1.jpg",
+            "/img/wide/details/Snowy Village detail2.jpg",
         ],
         size: "wide",
         title: "Snowy Village",
@@ -204,7 +204,7 @@ export const image_list = [
     },
     {
         id: 108,
-        src: "./img/wide/Vase.jpg",
+        src: "/img/wide/Vase.jpg",
         details: [],
         size: "wide",
         title: "Vase",
@@ -214,7 +214,7 @@ export const image_list = [
     },
     {
         id: 109,
-        src: "./img/wide/Waves.jpg",
+        src: "/img/wide/Waves.jpg",
         details: [],
         size: "wide",
         title: "Waves",
@@ -226,7 +226,7 @@ export const image_list = [
     /* Ultra Wide */
     {
         id: 10000,
-        src: "./img/ultra-wide/Cactus.jpg",
+        src: "/img/ultra-wide/Cactus.jpg",
         details: [],
         size: "ultra-wide",
         title: "Cactus",
@@ -236,7 +236,7 @@ export const image_list = [
     },
     {
         id: 10001,
-        src: "./img/ultra-wide/Naxos.jpg",
+        src: "/img/ultra-wide/Naxos.jpg",
         details: [],
         size: "ultra-wide",
         title: "Naxos",
@@ -246,10 +246,10 @@ export const image_list = [
     },
     {
         id: 10002,
-        src: "./img/ultra-wide/Pumkin.jpg",
+        src: "/img/ultra-wide/Pumkin.jpg",
         details: [
-            "./img/ultra-wide/details/Pumkin detail1.jpg",
-            "./img/ultra-wide/details/Pumkin detail2.jpg",
+            "/img/ultra-wide/details/Pumkin detail1.jpg",
+            "/img/ultra-wide/details/Pumkin detail2.jpg",
         ],
         size: "ultra-wide",
         title: "Pumkin",
@@ -259,10 +259,10 @@ export const image_list = [
     },
     {
         id: 10003,
-        src: "./img/ultra-wide/Quay.jpg",
+        src: "/img/ultra-wide/Quay.jpg",
         details: [
-            "./img/ultra-wide/details/Quay detail1.jpg",
-            "./img/ultra-wide/details/Quay detail2.jpg",
+            "/img/ultra-wide/details/Quay detail1.jpg",
+            "/img/ultra-wide/details/Quay detail2.jpg",
         ],
         size: "ultra-wide",
         title: "Quay",
@@ -272,7 +272,7 @@ export const image_list = [
     },
     {
         id: 10004,
-        src: "./img/ultra-wide/Quince.jpg",
+        src: "/img/ultra-wide/Quince.jpg",
         size: "ultra-wide",
         details: [],
         title: "Quince",
