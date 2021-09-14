@@ -13,7 +13,7 @@
     import { onMount } from "svelte";
     import { underline_value } from "../stores/underline_value";
 
-    import WorkCard from "../components/Work/WorkCard.svelte";
+    import WorkCard from "../components/Cards/WorkCard.svelte";
 
     onMount(() => $underline_value = 3);
 

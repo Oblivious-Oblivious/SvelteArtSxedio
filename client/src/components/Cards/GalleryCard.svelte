@@ -1,5 +1,5 @@
 <script>
-    import Lightbox from "./Lightbox.svelte";
+    import Lightbox from "../Gallery/Lightbox.svelte";
 
     export let image;
     let [image_source, image_caption] = image;

@@ -3,8 +3,8 @@
 </script>
 
 <!-- TODO Add a container for overlaying text on hover -->
-<a href="/work/{image.id}">
-    <img src="{image.src}" alt="imgsrc">
+<a href="/work/{image.id}" draggable="false">
+    <img src="{image.src}" alt="imgsrc" draggable="false">
 </a>
 
 <style>
@@ -24,6 +24,7 @@
 
     /* TODO Blur only the image not the text */
     a:hover {
+        /* TODO Blur filter overrides positioning of element */
         filter: blur(4px);
         transition: all 400ms ease;
     }
