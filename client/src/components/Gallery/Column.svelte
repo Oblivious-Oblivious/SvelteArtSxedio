@@ -1,5 +1,5 @@
 <script>
-    import GalleryGard from "../Cards/GalleryCard.svelte";
+    import GalleryGard from "./GalleryCard.svelte";
 
     export let image_list;
 </script>
